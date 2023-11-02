@@ -1,0 +1,33 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    background-color: #212121;
+    color: #ffff;
+    padding-inline: 5rem; /*padding istovremeno sa leve i desne strane*/
+    padding-block: 2rem; /*padding istovremeno sa gornje i donje strane*/
+   
+}
+.logo {
+    padding: 8px;
+    background: #757575;   
+    border-radius: 4px;
+}
+
+.header input {
+    border:none;
+    border-bottom: 2px solid #dbdbdb;
+    background: rgb(255, 255, 255, 0); /*0 je potpuno prozirno , 1 je puna boja*/
+    color: #fafafa;
+    transition: all 150ms ease; /*ease-in = ubrzaj pa polako stani, ease-out=polako ubrazavaj, ease generalno znaci da bude sto prirodnija animacija*/
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+    outline: none;
+}
+.header input:hover {
+    background: rgb(255, 255, 255, 0.1);
+
+}
+
+.header input:focus {
+    border-color: #bb86fc;
+}
